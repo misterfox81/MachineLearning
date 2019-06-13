@@ -10,7 +10,6 @@ image = cv2.imread("img/1.jpeg")
 (h, w, d) = image.shape
 print("width={}, height={}, depth={}".format(w, h, d))
 
-
 # access the RGB pixel located at x=50, y=100, keepind in mind that
 # OpenCV stores images in BGR order rather than RGB
 (B, G, R) = image[100, 50]
