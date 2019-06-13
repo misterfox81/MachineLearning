@@ -1,0 +1,7 @@
+echo "# machine_learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:misterfox81/machine_learning.git
+git push -u origin master
+
