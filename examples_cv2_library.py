@@ -23,6 +23,8 @@ cv2.imshow("Imagine", image)
 # extract a 100x100 pixel square ROI (Region of Interest) from the
 # input image starting at x=320,y=60 at ending at x=420,y=160
 roi = image[60:160, 10:20]
+# Mostra l'immagine
 cv2.imshow("ROI", roi)
 
+# Aspetta per il tasto di chiusura
 cv2.waitKey(0)
